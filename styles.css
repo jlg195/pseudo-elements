@@ -1,0 +1,71 @@
+p {
+    text-align: center;
+    color: #ffffff;
+}
+body {
+    background-image: url("sunflower.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    
+}
+
+.main-header {
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+    text-align: center;
+}
+
+.intro-paragraph {
+    font-size: 16px;
+    color: #ffffff;
+    margin: 10px 20px;
+    position: relative;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+.main-header::before,
+.main-header::after {
+    content: '★';
+    color: gold;
+    margin: 0 10px;
+}
+
+.intro-paragraph::before,
+.intro-paragraph::after {
+    content: '"';
+    color: #ffffff;
+    font-size: 20px;
+}
+
+
+.cta-button::after {
+    content: '👈';
+    margin: 0 5px;
+}
+
+.cta-button::before{
+    content: ' 👉';
+    margin: 0 5px;
+}
